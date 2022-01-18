@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "http-server & tailwindcss -i ./tailwind.css -o ./style.css --watch"
+    "start": "http-server -c1 & tailwindcss -i ./tailwind.css -o ./style.css --watch"
   },
   "devDependencies": {
     "http-server": "^14.1.0",
